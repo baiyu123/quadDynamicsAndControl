@@ -1,0 +1,6 @@
+% kf coefficient for force
+% km coefficient for moment
+function [Force, Moment] = propellerDynamics(kf, km, angularVel)
+    Force = kf*angularVel^2;
+    Moment = k
+end
