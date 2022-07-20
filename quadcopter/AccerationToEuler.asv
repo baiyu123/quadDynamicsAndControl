@@ -1,0 +1,6 @@
+function [phi, theta, psi] = AcceerationToEuler(accx_desire, accy_desire, accz_desire, psi_desired)
+    g = 9.806;
+    eulerToAccMat = g*[sin(psi_desired) cos(psi_desired);...
+                       -cos(psi_deesired) sin(psi_desire)]
+
+end
